@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    font-family: MontereyFLF;
+    font-size: 22px;
+    color: black;
+    font-weight:900;
+    
+}
+.btn-info
+{
+    width: 120px;
+}
+.btn-danger
+{
+    width: 120px;
+}
+.slider_img{
+    width: 100%;
+    margin-top: 60px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    
+}
+h3{
+    font-family: Century Gothic;
+    font-size: 25px;
+    font-weight:900;
+    margin-top: 30px;
+    color: #17a2b8;
+}
+.col-md-4 img{
+    width: 400px;
+    height: 300px;
+    margin-left: -50px;
+    margin-top: -30px;
+}
+.wel_content{
+    margin-top: 30px;
+}
+p{
+    color: #fefefe;
+}
+.container-fluid-a{
+    background-color: black;
+    margin-top: 10px;
+    padding: 5px;
+}
+.about_udaan{
+    box-shadow: 1px 2px 5px gray;
+}
+
+
+.sliding{
+    background: #ffffff;
+     background: linear-gradient(135deg, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+     color: #ffffff !important;
+    /* IE6-9 fallback on horizontal gradient */
+     -webkit-animation: AnimationName 3s ease infinite;
+     
+     background-size: 400% 400%;
+     -moz-animation: AnimationName 3s ease infinite;
+     animation: AnimationName 3s ease infinite;
+     -webkit-animation: AnimationName 3s ease infinite;
+     -moz-animation: AnimationName 3s ease infinite;
+     animation: AnimationName 3s ease infinite;
+     border: medium none;
+}
+/* div ul li  :hover{
+    background-color: #111111;
+
+} */
+
+@-webkit-keyframes AnimationName {
+    0%{
+       background-position:0% 31%
+   }
+    50%{
+       background-position:100% 70%
+   }
+    100%{
+       background-position:0% 31%
+   }
+}
+@-moz-keyframes AnimationName {
+    0%{
+       background-position:0% 31%
+   }
+    50%{
+       background-position:100% 70%
+   }
+    100%{
+       background-position:0% 31%
+   }
+}
+@keyframes AnimationName {
+    0%{
+       background-position:0% 31%
+   }
+    50%{
+       background-position:100% 70%
+   }
+    100%{
+       background-position:0% 31%
+   }
+}
